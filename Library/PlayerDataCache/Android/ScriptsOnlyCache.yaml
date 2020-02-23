@@ -78,45 +78,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 11880}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 11562}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12028}
+      Script: {instanceID: 12660}
     - Class: 114
-      Script: {instanceID: 12040}
+      Script: {instanceID: 12672}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 12692}
     - Class: 114
-      Script: {instanceID: 12144}
+      Script: {instanceID: 12776}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 12808}
     - Class: 114
-      Script: {instanceID: 12390}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 12602}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 12764}
+      Script: {instanceID: 13390}
     - Class: 114
-      Script: {instanceID: 12790}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13000}
+      Script: {instanceID: 13622}
     - Class: 114
-      Script: {instanceID: 13094}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 13196}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 14064}
     - Class: 114
-      Script: {instanceID: 13454}
+      Script: {instanceID: 14068}
     - Class: 114
-      Script: {instanceID: 13572}
+      Script: {instanceID: 14186}
     - Class: 114
-      Script: {instanceID: 13634}
+      Script: {instanceID: 14248}
     - Class: 114
-      Script: {instanceID: 14006}
+      Script: {instanceID: 14616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -216,12 +216,6 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 16967ff3c4e32bf02748605393f74519
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.AugmentedImage
-    className: AugmentedImageExampleController
-  - hash:
-      serializedVersion: 2
       Hash: 72712369a7c681ad84fc255a5ec0b333
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -276,18 +270,6 @@ ScriptsOnlyBuild:
     className: NetworkTransform
   - hash:
       serializedVersion: 2
-      Hash: febfb1502f3a7d3d25fe0694a27ac6e7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: NetworkManagerUIController
-  - hash:
-      serializedVersion: 2
-      Hash: 4cb443ffb7b54a755d9852ae91684f7d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ComputerVision
-    className: ComputerVisionController
-  - hash:
-      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -318,12 +300,6 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 1e9c409e29cdc019c5521daf5eb17010
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ComputerVision
-    className: TextureReader
-  - hash:
-      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -348,12 +324,6 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: bc36cfe008859a4f07b3da2ff0b5e005
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.AugmentedFaces
-    className: AugmentedFacesExampleController
-  - hash:
-      serializedVersion: 2
       Hash: 4e9333594897a1fb8b136ad2eae996c7
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -370,12 +340,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: ManipulationSystem
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -444,12 +408,6 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: b6337c40e664256917540c23828614b4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.AugmentedImage
-    className: AugmentedImageVisualizer
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -460,12 +418,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
-  - hash:
-      serializedVersion: 2
-      Hash: 0451019579614cc079b33f5be5df7244
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: LocalPlayerController
   - hash:
       serializedVersion: 2
       Hash: 265cf27ba050d55ff33a8acab4ded6c0
@@ -504,12 +456,6 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 269133bf6785f1e198f98a5b4b08eda1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: ARCoreWorldOriginHelper
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -546,28 +492,10 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: AnchorController
-  - hash:
-      serializedVersion: 2
-      Hash: 1ab92b1501bff4203df13dd5880207c1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.AugmentedFaces
-    className: ARCoreAugmentedFaceRig
-  - hash:
-      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
-  - hash:
-      serializedVersion: 2
-      Hash: 309c0efd4456d6e902823ab02606508d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: ElevationManipulator
   - hash:
       serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
@@ -582,18 +510,6 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: RotationManipulator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: ObjectManipulationController
-  - hash:
-      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -604,12 +520,6 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 1ab92b1501bff4203df13dd5880207c1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.AugmentedFaces
-    className: ARCoreAugmentedFaceMeshFilter
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -634,12 +544,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: StarController
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -696,18 +600,6 @@ ScriptsOnlyBuild:
     className: ARCoreSessionConfig
   - hash:
       serializedVersion: 2
-      Hash: edb986b6ebeb66208841352d63987938
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: CloudAnchorsExampleController
-  - hash:
-      serializedVersion: 2
-      Hash: 40eab39826f66889566d3a3e6ef95673
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: TranslationManipulator
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -738,12 +630,6 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: 14cb302be190eb67bf7fb5f1aab28ce0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: PawnManipulator
-  - hash:
-      serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -768,6 +654,12 @@ ScriptsOnlyBuild:
     className: DetectedPlaneVisualizer
   - hash:
       serializedVersion: 2
+      Hash: d2d76575dc877a7b5e861bee7a5eac5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveCamera
+  - hash:
+      serializedVersion: 2
       Hash: 1db723b554a361a812257e508051085f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore
@@ -790,18 +682,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8118d37154f214ab0486c7b2852792b7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: ScaleManipulator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ComputerVision
-    className: PointClickHandler
   - hash:
       serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
@@ -832,12 +712,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
-  - hash:
-      serializedVersion: 2
-      Hash: a6be390312032ba0856f81fc3c448644
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.ObjectManipulation
-    className: SelectionManipulator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -900,12 +774,6 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: 21e871d89bbce53c038fc75ad1b7c7f3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleARCore.Examples.CloudAnchors
-    className: CloudAnchorsNetworkManager
-  - hash:
-      serializedVersion: 2
       Hash: aa88ae22474df55295327e4ee99e5a24
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -934,12 +802,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d2d76575dc877a7b5e861bee7a5eac5d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveCamera
   platform: 13
   scenePathNames:
   - Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
