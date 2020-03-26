@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Goat : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Goat : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 7;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 7;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

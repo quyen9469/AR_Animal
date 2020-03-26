@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class IronAge : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class IronAge : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 9;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 9;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

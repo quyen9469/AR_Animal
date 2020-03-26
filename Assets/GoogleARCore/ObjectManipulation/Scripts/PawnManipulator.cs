@@ -37,7 +37,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// <summary>
         /// A prefab to place when a raycast from a user touch hits a plane.
         /// </summary>
-        public GameObject PawnPrefab;
+        public static GameObject PawnPrefab;
 
         /// <summary>
         /// Manipulator prefab to attach placed objects to.

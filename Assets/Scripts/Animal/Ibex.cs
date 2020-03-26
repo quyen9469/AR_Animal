@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Ibex : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Ibex : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 8;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 8;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

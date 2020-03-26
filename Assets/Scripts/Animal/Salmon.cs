@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Salmon : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Salmon : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 15;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 15;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

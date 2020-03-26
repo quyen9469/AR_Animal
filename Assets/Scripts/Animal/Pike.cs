@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Pike : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Pike : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 12;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 12;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

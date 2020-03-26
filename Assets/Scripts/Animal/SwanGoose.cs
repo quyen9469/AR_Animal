@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class SwanGoose : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class SwanGoose : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 18;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 18;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

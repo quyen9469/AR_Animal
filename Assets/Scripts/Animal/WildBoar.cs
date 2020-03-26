@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class WildBoar : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class WildBoar : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 19;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 19;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

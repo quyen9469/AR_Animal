@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Octopus : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Octopus : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 10;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 10;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

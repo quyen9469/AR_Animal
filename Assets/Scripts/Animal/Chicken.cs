@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Chicken : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+
+    public class Chicken : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 3;
+        public GameObject chickenPrefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 3;
+            PawnManipulator.PawnPrefab = chickenPrefab;
+        }
     }
 }

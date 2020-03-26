@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Shark : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Shark : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 16;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 16;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

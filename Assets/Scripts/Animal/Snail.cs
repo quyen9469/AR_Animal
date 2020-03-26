@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Snail : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Snail : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 17;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 17;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

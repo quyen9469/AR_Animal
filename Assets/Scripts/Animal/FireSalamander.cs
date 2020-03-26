@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class FireSalamander : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class FireSalamander : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 6;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 6;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

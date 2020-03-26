@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44300598, g: 0.4921947, b: 0.5719239, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300598, g: 0.49219495, b: 0.57192415, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1496,6 +1496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48fea30bd7919f14c964cad6ed89bdc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cattlePrefab: {fileID: 1284065736887346, guid: 17c92e8b373815b42a027aed891bc237,
+    type: 3}
 --- !u!1 &296134130
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646d16c0f95f4cf488baad4532bd5f2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bearPrefab: {fileID: 1048028720104268, guid: 3ab164258b5613d4caa3f570831d4ca7, type: 3}
 --- !u!1 &557169198
 GameObject:
   m_ObjectHideFlags: 0
@@ -5719,7 +5722,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirstPersonCamera: {fileID: 646831371}
-  PawnPrefab: {fileID: 1490265566373220, guid: facf591655af16644a4b82de8b747c53, type: 3}
   ManipulatorPrefab: {fileID: 1122865395318488, guid: 24556cd4924884d9aaa3d80135c8021d,
     type: 3}
 --- !u!4 &1812720043

@@ -3,7 +3,9 @@ guid: 48fea30bd7919f14c964cad6ed89bdc0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cattlePrefab: {fileID: 1284065736887346, guid: 17c92e8b373815b42a027aed891bc237,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

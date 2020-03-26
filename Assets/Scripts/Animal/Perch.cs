@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Perch : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Perch : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 11;
+        public GameObject prefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 11;
+            PawnManipulator.PawnPrefab = prefab;
+        }
     }
 }

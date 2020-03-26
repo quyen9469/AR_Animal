@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Crocodile : MonoBehaviour
+namespace GoogleARCore.Examples.ObjectManipulation
 {
-    public void setAnim()
+    public class Crocodile : MonoBehaviour
     {
-        AnimalStatus.AnimalPosition = 4;
+        public GameObject crocodilePrefab;
+        public void setAnim()
+        {
+            AnimalStatus.AnimalPosition = 4;
+            PawnManipulator.PawnPrefab = crocodilePrefab;
+        }
     }
 }
