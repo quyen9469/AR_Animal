@@ -1,4 +1,0 @@
-#Thu Mar 26 21:35:26 ICT 2020
-base.0=D\:\\Intership SS\\AR_Animal\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
