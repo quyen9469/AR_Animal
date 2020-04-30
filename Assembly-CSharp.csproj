@@ -251,7 +251,7 @@
     <Compile Include="Assets\Scripts\Animation\Run.cs" />
     <Compile Include="Assets\Scripts\Animation\Walk.cs" />
     <Compile Include="Assets\Scripts\ButtonAnimationScript.cs" />
-    <Compile Include="Assets\Scripts\GlobalManager.cs" />
+    <Compile Include="Assets\Scripts\ButtonRestartScript.cs" />
     <Compile Include="Assets\Scripts\OpenGallery.cs" />
     <Compile Include="Assets\Scripts\ScreenShot.cs" />
     <Compile Include="Assets\Scripts\StartRecord.cs" />

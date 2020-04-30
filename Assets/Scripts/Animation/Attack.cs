@@ -8,5 +8,6 @@ public class Attack : MonoBehaviour
     public void setAttack()
     {
         AnimalStatus.NumberAnimation = 1;
+        
     }
 }
