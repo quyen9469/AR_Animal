@@ -9,7 +9,7 @@ public class StopRecord : MonoBehaviour
    
     public void VisibleUI()
     {
-        canvas1.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
+        canvas1.transform.localScale = new Vector3(1f, 1f, 1f);
     }
 
 }

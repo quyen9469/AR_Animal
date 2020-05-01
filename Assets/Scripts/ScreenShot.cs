@@ -51,7 +51,7 @@ public class ScreenShot : MonoBehaviour
         Debug.Log("Permission result: " + NativeGallery.SaveImageToGallery(ss, "ARCamera", myFileName));
         // To avoid memory leaks
         Destroy(ss);
-        canvas1.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f); 
+        canvas1.transform.localScale = new Vector3(1f, 1f, 1f); 
         isProcessing = false;
        
         AndroidContentOpenerWrapper.OpenContent(myScreenshotLocation);
