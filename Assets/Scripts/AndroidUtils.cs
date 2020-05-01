@@ -34,7 +34,7 @@ public enum AndroidPermission
 public class AndroidUtils : MonoBehaviour
 {
     private const float SCREEN_WIDTH = 720f;
-    private const string VIDEO_NAME = "Record", GALLERY_PATH = "/../../../../DCIM/VideoRecorders";
+    private const string VIDEO_NAME = "Record", GALLERY_PATH = "/../../../../DCIM/ARCamera";
     public static UnityAction onAllowCallback, onDenyCallback, onDenyAndNeverAskAgainCallback;
 #if UNITY_ANDROID && !UNITY_EDITOR
     private AndroidJavaObject androidRecorder;
