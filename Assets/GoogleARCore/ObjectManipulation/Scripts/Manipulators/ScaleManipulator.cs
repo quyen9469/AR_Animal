@@ -34,13 +34,13 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// The minimum scale of the object.
         /// </summary>
         [Range(0.1f, 10.0f)]
-        public float MinScale = 0.75f;
+        public float MinScale = 0.1f;
 
         /// <summary>
         /// The maximum scale of the object.
         /// </summary>
         [Range(0.1f, 10.0f)]
-        public float MaxScale = 1.75f;
+        public float MaxScale = 2f;
 
         private const float k_ElasticRatioLimit = 0.8f;
         private const float k_Sensitivity = 0.75f;

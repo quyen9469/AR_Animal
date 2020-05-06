@@ -105,7 +105,8 @@ public class AnimalStatus : MonoBehaviour
                 break;
         }
 
-        animal.text = " Animal: " + animalText + " + " + animationText;
+        //animal.text = " Animal: " + animalText + " + " + animationText;
+        animal.text = " Animal: " + animalText ;
     }
 
 }
